@@ -41,6 +41,11 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 ```
 
 - Nerd Fonts
+```
+brew tap homebrew/cask-fonts
+brew install --cask font-hack-nerd-font
+```
+
 - zsh-syntax-highlighting
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git \
