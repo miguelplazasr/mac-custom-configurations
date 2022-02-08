@@ -1,0 +1,25 @@
+[user]
+	name = MiguelPlazas
+	email = 
+	signingkey = 
+[core]
+	excludesfile = /Users/user/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree 2.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/user/.stCommitMsg
+	gpgsign = true
+[alias]
+	co = checkout
+	br = branch
+	st = status
+	ci = commit
+        fr = "!f() { git fetch && git rebase origin/"$1"; }; f"
+[init]
+	templatedir = ~/.git-templates
+[gpg]
+	program = gpg2
