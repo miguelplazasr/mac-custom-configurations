@@ -39,6 +39,8 @@ sudo git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/
 ```
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 ```
+
+- Nerd Fonts
 - zsh-syntax-highlighting
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git \
