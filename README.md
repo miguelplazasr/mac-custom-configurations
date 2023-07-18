@@ -123,6 +123,11 @@ brew install --cask gpg-suite
 
 ```
 
+```shell
+brew install --cask loopback
+brew install --cask SoundSource
+```
+
 # Others
 
 - Adobe
@@ -145,7 +150,6 @@ brew install --cask gpg-suite
 - Notion
 - OBS
 - ONS Link
-- Obsidian
 - PDF OCR X Enterprise Edition
 - Raspberry Pi Imager
 - Reflector 3 and 4
