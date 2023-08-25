@@ -128,6 +128,34 @@ brew install --cask loopback
 brew install --cask SoundSource
 ```
 
+## Node
+
+```shell
+brew install node@<version>
+
+# latest version
+brew install node
+
+# LTS 12
+brew install node@12
+
+# 10
+brew install node@10
+
+
+# Switch Node via alias. Add to ~/.zshrc
+
+alias node20='export PATH="/opt/homebrew/opt/node@20/bin:$PATH"'
+alias node16='export PATH="/opt/homebrew/opt/node@16/bin:$PATH"'
+alias node14='export PATH="/opt/homebrew/opt/node@14/bin:$PATH"'
+```
+
+## Notion
+```bash
+brew install --cask notion
+```
+
+
 # Others
 
 - Adobe
@@ -157,4 +185,14 @@ brew install --cask SoundSource
 - Sublime Text
 - Transmit
 - Yubico Authenticator
-- 
+
+
+# Browser
+
+## Brave
+
+### Plugins
+
+- Save web store
+- Redux DevTools
+
