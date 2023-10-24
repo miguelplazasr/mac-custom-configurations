@@ -1,3 +1,11 @@
+<tipo>(<ámbito>): <mensaje corto>
+
+<descripción detallada (opcional)>
+
+<referencias a issues o tickets (opcional)>
+
+
+#--------------------------------------------------------------------
 # Opcion 1
 #
 #1. **Tipo**: Una palabra que describe la naturaleza del cambio:
@@ -35,8 +43,3 @@
 #    
 #5. **Referencias a issues o tickets** (opcional): Si el commit está relacionado con issues o tickets en un sistema de seguimiento, puedes referenciarlos aquí.
 
-<tipo>(<ámbito>): <mensaje corto>
-
-<descripción detallada (opcional)>
-
-<referencias a issues o tickets (opcional)>
