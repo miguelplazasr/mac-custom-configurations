@@ -1,0 +1,42 @@
+# Opcion 1
+#
+#1. **Tipo**: Una palabra que describe la naturaleza del cambio:
+#    
+#    - `add`: Añadir un nuevo `docker-compose` o servicio.
+#    - `update`: Actualizar un `docker-compose` existente o modificar configuraciones.
+#    - `remove`: Eliminar un `docker-compose` o servicio.
+#    - `fix`: Corregir errores en un `docker-compose`.
+#    - `docs`: Cambios en la documentación o comentarios dentro de los archivos.
+#    - `chore`: Cambios menores que no afectan la funcionalidad, como reordenar directorios.
+#2. **Servicio/Directorio**: Indica el servicio o directorio específico que se está modificando. Por ejemplo: `nginx`, `database`, `frontend`, etc.
+#    
+#3. **Mensaje corto**: Una breve descripción del cambio en tiempo presente y comenzando con letra mayúscula. Por ejemplo: "Añade volumen persistente".
+#    
+#4. **Descripción detallada** (opcional): Una descripción más detallada del cambio, si es necesario. Explica el contexto del cambio y por qué se hizo.
+#    
+#5. **Referencias a issues o tickets** (opcional): Si el commit está relacionado con issues o tickets en un sistema de seguimiento, puedes referenciarlos aquí.
+# --------------------------------------------------------------------------
+#Opcion 2
+#1. **Tipo**: Una palabra que describe la naturaleza del cambio:
+#    
+#    - `feat`: Una nueva característica o funcionalidad.
+#    - `fix`: Una corrección de bug.
+#    - `docs`: Cambios en la documentación.
+#    - `style`: Cambios de estilo (formato, falta de puntuación, etc.) que no afectan el significado del código.
+#    - `refactor`: Cambio en el código que no corrige un bug ni añade una característica.
+#    - `perf`: Cambios en el código que mejoran el rendimiento.
+#    - `test`: Adición o corrección de pruebas.
+#    - `chore`: Cambios en el proceso de construcción o herramientas auxiliares y bibliotecas.
+#2. **Ámbito** (opcional): Indica la sección o componente del proyecto al que se refiere el commit, por ejemplo: `auth`, `ui`, `api`, etc.
+#    
+#3. **Mensaje corto**: Una breve descripción del cambio en tiempo presente y comenzando con letra mayúscula. Por ejemplo: "Añade validación de correo electrónico".
+#    
+#4. **Descripción detallada** (opcional): Una descripción más detallada del cambio, si es necesario. Explica el contexto del cambio y por qué se hizo.
+#    
+#5. **Referencias a issues o tickets** (opcional): Si el commit está relacionado con issues o tickets en un sistema de seguimiento, puedes referenciarlos aquí.
+
+<tipo>(<ámbito>): <mensaje corto>
+
+<descripción detallada (opcional)>
+
+<referencias a issues o tickets (opcional)>
