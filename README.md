@@ -195,4 +195,5 @@ brew install --cask notion
 
 - Save web store
 - Redux DevTools
+- [JSON-Viewer](https://github.com/rbrahul/Awesome-JSON-Viewer)
 
